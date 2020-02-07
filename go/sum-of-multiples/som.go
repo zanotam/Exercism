@@ -12,6 +12,7 @@ func SumMultiples(limit int, divisors ...int) (sum int) {
 		}
 		lists = append(lists, list)
 	}
+	//fmt.Print(lists)
 	set := make(map[int]bool)
 	for _, list := range lists {
 		for _, x := range list {
